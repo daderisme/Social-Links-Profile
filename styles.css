@@ -1,0 +1,74 @@
+.attribution {
+     font-size: 11px; 
+     text-align: center;
+     color: white;
+     margin-top: 3em;
+ }  
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+ }
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', serif;
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    margin-top: 6em;
+    border-radius: 3%;
+    padding: 1em;
+}
+
+.btn-container {
+    width: 80%;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    height: 3em;
+    border-radius: 3%;
+    background-color: hsl(0, 0%, 20%);
+    border-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: 600;
+    
+}
+
+.btn:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+img {
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 20%);
+}
+
+h1 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: .8em;
+    margin-bottom: 1.8em;
+}
+
+p {
+    color: white;
+    font-size: 0.8em;
+    
+}
+
